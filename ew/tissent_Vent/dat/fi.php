@@ -1,0 +1,30 @@
+<?php
+$fn = 'fi';
+include($path.$DDir.'roomdata.php');
+list($Title, $CName) = split(',', $CInfo[$fn]);
+$Comment = '';
+$pinup = '';
+$background = '';
+$bgcolor = '#FFFFFF';
+$text = '#5555AA';
+$link = '#7070EE';
+$vlink = '#7070EE';
+$alink = '#7070EE';
+$HDcolor = '9999EE';
+$Hcolor[] = 'AF5757';
+$Hcolor[] = 'AF7C57';
+$Hcolor[] = '57AF57';
+$Hcolor[] = '5780AF';
+$Hcolor[] = '8357AF';
+$Hcolor[] = 'AF5783';
+$Hcolor[] = '999999';
+$Hcolor[] = '003675';
+$Hcolor[] = '3A0075';
+$AdminLog = 0;
+$NoRom = 0;
+$Clear = 0;
+$Dice = '';
+$Free = 0;
+$Password = 0;
+$Fixkey = '';
+?>

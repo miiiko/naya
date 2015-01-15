@@ -1,0 +1,110 @@
+
+/*ページ基本設定*/
+
+*	{
+	border: 0px;
+	margin: 0px;
+	padding:0px;
+}
+
+html{
+	scrollbar-3dlight-color:#527552;
+	scrollbar-arrow-color:#527552;
+	scrollbar-base-color:#527552;
+	scrollbar-face-color:#ffffff;
+	scrollbar-highlight-color:#ffffff;
+	scrollbar-shadow-color:#ffffff;
+	scrollbar-track-color:#ffffff;
+	scrollbar-darkshadow-color:#527552;	
+}
+
+body{
+	color: #336633;
+	font-size: 0.8em;
+	font-family: Hiragino Kaku Gothic Pro,"ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Osaka", Helvetica, Arial, sans-serif;
+	line-height: 1.2em;
+background-image: url("../img/043.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: right bottom;
+
+	
+}
+
+/*リンク*/
+
+	a　{ text-decoration:none;}
+	a:link	{ color:#728C79; }
+	a:visited	{ color:#728C79; }
+	a:hover	{ color:#728C79;
+			position:relative; top:2px; left:2px;}
+ 
+ 
+/*見出し*/
+
+h1{
+	margin:160px 0px 10px 350px;
+	font-size :2em;
+	letter-spacing:1px;	
+	font-weight: normal; 
+	}
+	
+h2{
+	margin:20px 0 0 0;
+	padding:0 0 0 50px;
+	background:url(./image/hr.png) no-repeat 100% 100%;
+	font-size:1.2em;
+	font-weight: normal; 
+}
+
+
+
+strong{
+	margin:15px 0px 10px;
+	padding:0 0 0 5px;
+	font-size:1.2em;
+	border-left:5px solid #99CC99;	
+	font-weight: normal; 
+}
+
+/*box系*/
+
+/*head------*/
+div#head{
+	width:650px;
+}
+
+#head p.text{
+	margin:0px 0px 0px 300px;
+	font-size: 0.8em;
+}
+
+
+/*main------*/
+
+div#main{
+	width:650px;
+	}
+
+.text{
+	margin:5px 0 0 0;
+	padding:0 0 0 50px;
+}
+
+.image{
+	margin:5px 0px 0 0;
+	padding:0 80px 0 50px;
+	line-height: 2em;;
+}
+
+/*hoot------*/
+
+div#foot{
+	width:650px;
+}
+
+#foot p.text{
+	margin:5px 0px 0 0;
+	padding:0 0 0 50px;
+	font-size: 0.9em;
+}

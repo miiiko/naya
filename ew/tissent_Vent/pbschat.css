@@ -1,0 +1,47 @@
+/*
+-----------------------------------------------------------
+	PbsChat Style Sheet
+-----------------------------------------------------------
+*/
+
+/* スクロールバーなどの設定を変えたい時はここに書きます */
+body {
+
+background-color: #FFFFFF;
+      background-image : url("img/3.jpg");
+      background-attachment: fixed;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+
+}
+
+/* 全体のフォントサイズを調整したい時はここに書きます */
+body,td,font {
+
+}
+
+/* チャットルームのタイトル（上でフォントサイズを変えた時はここも指定してください） */
+.ptitle {
+
+}
+
+/* テキストを入力するフォーム */
+.textform {
+
+}
+
+/* セレクトフォーム */
+.selectform {
+
+}
+
+/* チェックボックス・ラジオボタン */
+.checkform {
+
+}
+
+/* 送信ボタン */
+.buttonform {
+
+}
+
